@@ -1,2 +1,5 @@
 # 8051-microcontroller
 This repository contains programmes for uploading on 8051 based microcontroller
+
+##*** Code written in this repo is only applicable for AT89S52 microcontroller and microcontroller with similar features***
+
