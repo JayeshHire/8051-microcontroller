@@ -40,12 +40,14 @@ void delay(){
 	
 	//timer start
 	TR0 = 1;
-	
+	while(1){
 	//check for timer overflow 
 	if (TF0 == 1){
 	//stop timer
 		TR0 = 0 ;
 		//reset overflow flag
 		TF0 = 0;
+		break;
 	}
+}
 }
